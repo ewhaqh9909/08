@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	fp=fopen("sample.txt","w");
 	for(i=0;i<3;i++)
 	{
-		printf("입력:");
+		printf("입력:\n ");
 		scanf("%s",input);
 		fprintf(fp,"%s",input);
 	}
